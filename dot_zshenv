@@ -1,0 +1,11 @@
+typeset -U path PATH
+path=(
+	$path
+	$HOME/.local/bin
+	$HOME/.local/bin/VSCode-linux-x64/bin
+	$HOME/.local/bin/pandoc/bin
+)
+export PATH
+export ZDOTDIR=$HOME/.config/zsh
+export EDITOR=nvim
+
